@@ -21,8 +21,7 @@ public class ExamenCOD {
     }
 
     public static boolean metodoMio(int variable) {
-        variable= 22;
-        int j = 21;
+        int j = 2;
         boolean aux = true;
         while ((aux) && (j != variable)) {
             if (variable % j == 0) {
@@ -31,6 +30,7 @@ public class ExamenCOD {
             j++;
         }
         return aux;
+    // el metodo mio con la variable =22 y j = 21 me da una sucesion de numeros primos
     }
 
 }
